@@ -1,0 +1,90 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+.debug {
+    border: 4px solid red;
+}
+
+.navbar-container {
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    color: white;
+}
+
+.navbar-links-container {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+}
+
+.nav-link {
+    padding: 10px 50px;
+    display: inline-block;
+}
+
+.main-banner {
+    width: 100%;
+    height: 80vh;
+    background-image: url("../img/dogbackground1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-banner h2 {
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    color: red;
+}
+
+.section-container {
+    display: flex;
+}
+
+.filter-container {
+    display: inline-block;
+    width: 20%;
+    background-color: teal;
+    top: 20px;
+    left: 20px;
+    flex: 1;
+}
+
+.main-container {
+    flex: 6;
+    background-color: black;
+    text-align: center;
+    display: inline-block;
+}
+
+.dog-card {
+    width: 25%;
+    display: inline-block;
+    height: 45vh;
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+.dog-img-container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+}
+.dog-img {
+    width: 100%;
+    min-height: 25vh;
+    max-height: 30vh;
+}
+

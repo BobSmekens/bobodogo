@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-color: pink;
+}
+
+h1 {
+    color: blue;
+}
+
+.background-container {
+    height: 50vh;
+    width: 40vw;
+    display: inline-block;
+    flex:2;
+}
+
+.background-img {
+    width: 100%;
+    
+}
+
+.dogpage-description {
+    width: 45vw;
+    height: 50vh;
+    display: inline-block;
+    flex: 3;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.dogpage-container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    padding-top: 15vh;
+    margin: auto;
+    align-items: center;
+}
